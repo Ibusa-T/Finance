@@ -3,11 +3,9 @@ package accouting.util.exception;
 
 /**
  * @NegativeNumberException
- * 
- * @TemplateDigitで
- * サポートしていない桁数を受け取った際に
- * 例外を投げます
- * */
+ * @author Ibusa-T
+ * @apiNote 負の数を扱う際に例外を投げます
+ *  */
 public class NegativeNumberException 
                    extends FinanceException{
 

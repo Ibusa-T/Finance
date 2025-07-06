@@ -3,8 +3,11 @@ package accouting.util;
 import accouting.util.exception.*;
 
 /**
- * @author IBusa_T
+ * @author IBusa-T
  * @DigitValidation
+ * @category processor
+ * @apiNote TemplateDigitクラスのテンプレートを利用して
+ * 金額文字列が数字であるか、デリミタの必要な桁数であるかを検査するクラス
  * */
 
 final  class DigitValidation {
@@ -21,7 +24,7 @@ final  class DigitValidation {
 	
 	private static boolean isNumeric(char c){
 		
-			return Character.isDigit(c) || c == '_';
+			return Character.isDigit(c) ;
 	}
 	
 	/**

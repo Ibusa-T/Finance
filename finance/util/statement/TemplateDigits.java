@@ -1,8 +1,9 @@
 package accouting.util;
 
 /**
+ * @author Ibusa-T
  * @TemplateDigit
- * 桁数取得のためのテンプレートを提供するクラス
+ * @apiNote 桁数取得のためのテンプレートを提供するクラス
  * */
 final  class TemplateDigit{
 	

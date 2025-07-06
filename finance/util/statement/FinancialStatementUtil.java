@@ -2,10 +2,9 @@ package accouting.util;
 import java.lang.NullPointerException;
 import accouting.util.exception.*;
 
-
 /**
+ * @author Ibusa-T
  * @FinancialStatement
- * @author IBusa
  * 今回作成するライブラリにおいて使われる共通処理をまとめています。
  * */
 
