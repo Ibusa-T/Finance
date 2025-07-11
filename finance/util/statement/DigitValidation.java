@@ -15,8 +15,7 @@ final  class DigitValidation {
 	private final static Integer fourDigits = 4;
 
 	private DigitValidation() {}
-	
-	
+		
 	/*
 	 * @param c 
 	 * 受け取った文字列の部分文字列が数字であるか検査
@@ -91,10 +90,8 @@ final  class DigitValidation {
 		for(int i =0 ; i< templateLength;i++) {
 			
 			if(length == TemplateDigit.templateDigits[i].length())
-				digit = TemplateDigit.templateDigits[i].length();
+			   return TemplateDigit.templateDigits[i].length();
 		}
-				
-		return digit;
 		
 	}
 	

@@ -44,7 +44,7 @@ public class FinancialStatementUtil {
 		
 		boolean flag = this.priceCheck(itemPrice);
 		
-		/*金額の参照がないならj例外を投げる*/
+		/*金額の参照がないなら例外を投げる*/
 		if(flag==false)
 			throw new NullPointerException();
 		
