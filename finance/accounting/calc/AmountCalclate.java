@@ -6,9 +6,15 @@ package accouting.calc;
  * これらは整数値を扱います
  */
 
+// DateTime date = new DateTime(2025, 7, 16); // 任意の日付
+// string mmdd = date.ToString("MMdd");
+// Console.WriteLine(mmdd); // 出力: 0716
 @FunctionalInterface
 public interface AmountCalclate extends Calclate<Integer>{
 	
-	public abstract Integer toCalclate(Integer ...n);
+	public abstract Integer toCalclate(String month,Integer ...n);
+	public abstract void Stock(String name,int amount);
+	public abstract void stockHistory(int yy,int mm,int dd,int mm,int dd,String name,double price);
+	public abstract void flowHistory(int yy,int mm,int dd,int mm,int dd,String name,double price);
 
 }

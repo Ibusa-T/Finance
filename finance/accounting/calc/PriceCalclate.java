@@ -10,5 +10,5 @@ package accouting.calc;
 
 @FunctionalInterface
 public interface PriceCalclate extends Calclate<Double>{
-	public abstract Double  toCalclate(Double ...n);
+	public abstract Double  toCalclate(int amount,Double ...n);
 }

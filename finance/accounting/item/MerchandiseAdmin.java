@@ -6,4 +6,6 @@ package accounting.item;
  * @Merchandise.class
  * 商業簿記における繰越商品を扱うクラスです。
  */
-final class Merchandise{}
+final class Merchandise{
+    private HashMap<String,Integer>stock;
+}

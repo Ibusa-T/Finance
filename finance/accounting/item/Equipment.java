@@ -9,4 +9,6 @@ package item;
  * また、間接法における減価償却累計額の計上をサポートします。
  */
 
-final class Equipment{}
+final class Equipment {
+    private HashMap<String,Integer>stock;
+}
